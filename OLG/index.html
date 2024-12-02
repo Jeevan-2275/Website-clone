@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html >
+<head>    
+    <title>OLG1</title>
+    <style>
+        .body{
+        background-repeat: no-repeat ;
+        width:100%
+      }
+      .title{
+        display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    height: 80px;
+    background-color: navy;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 1360PX;
+      }
+     .h1{
+      margin-left: 100px;
+    size: 20px;
+    height: 60px;
+    margin-top: 5px;
+     }
+     .h2{
+      display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 49px;
+    font-size: 15px;
+    color: #ebebef;
+     }
+     .A1{
+      margin-left: 10PX;
+     }
+     .A2{
+      margin-left: 10PX;
+     }
+     .A3{
+      margin-left: 10PX;
+     } .A4{
+      margin-left: 10PX;
+     } .A5{
+      margin-left: 10PX;
+     } .A6{
+      margin-left: 10PX;
+     }
+     .blinking-image img {
+      width: 110px;
+    height: 56px;
+    animation: blink 3s infinite;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.blinking-text {
+  font-size: 15px;
+  color: #fefafa;
+  animation: blink 3s infinite; 
+  margin-top: 60px; 
+  margin-left:-116PX;
+}
+.color-box {
+  width: 100px;
+    height: 42px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid rgb(250, 248, 248);
+    margin-top: 16px;
+    margin-left: 55px;
+}
+.color-box:hover {
+  background-color: #daf034; 
+  cursor: pointer; 
+}
+
+.pop-up-box {
+  width: 100px;
+  height: 50px;
+  background-color: #b8d96b; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 2px solid white; 
+  margin-top: 15PX;
+  margin-left: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.pop-up-box:hover {
+  background-color: #afa7a5; 
+  cursor: pointer; 
+  transform: scale(1.1); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
+
+}
+
+.en{
+  font-size: 18px;
+    margin-top: 30px;
+    margin-left: 34px;
+    color: white
+
+}
+.fr{
+  font-size: 18px;
+    margin-top: -39px;
+    margin-left: 72px;
+    color: white;
+}
+
+      
+
+body { 
+  background-image: url(9k=.png);
+    background-size: cover; 
+     background-position: center;
+    background-repeat: no-repeat;
+    height: 570px;
+    color: #fbf7f7;
+}
+.a7{
+  height: 100px;
+  margin-top: 70px;
+  margin-left: 200px;
+}
+.a8{
+  font-size: 17px;
+  margin-left: 200px;
+  margin-top: 10px;
+font-weight: bold;
+}
+.a9{
+  font-size: 80px;
+  margin-left: 200px;
+  margin-top: 10px;
+font-weight: bold;
+}
+.a10{
+  font-size: 28px;
+    margin-left: 200px;
+    margin-top: -78px;
+    font-weight: bolder;
+}
+.a11{
+  margin-left: 857px;
+    height: 300px;
+    margin-top: -672px;
+    margin-bottom: 112px;
+}
+.pop-up-box1{
+  width: 248px;
+    height: 50px;
+    background-color: #e7f82b;
+    color: rgb(64, 10, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 28px;
+    border: 2px solid white;
+    margin-top: -25PX;
+    margin-left: 182px;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.pop-up-box1:hover {
+  background-color: #afa7a5; 
+  cursor: pointer; 
+  transform: scale(1.1); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
+
+}
+.a12{
+  margin-left: 196px;
+    margin-top: 3px;
+    color: yellow;
+}
+.a13{
+  margin-left: 196px;
+    margin-top: -18px;
+}
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 20PX;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+} */
+
+.box-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150PX;
+    margin-left:-800px;
+}
+
+.box {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box img {
+  width: 281px;
+    height: 174px;
+    object-fit: cover;
+    border-bottom: 2px solid #ccc;
+}
+.box h1 {
+  margin: 10px 0;
+  font-size: 20px;
+  color:navy;
+  font-weight: bold;
+}
+
+.box h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color:navy;
+
+  color: #333;
+}
+
+
+
+.box:hover .popup {
+  opacity: 1;
+  visibility: visible;
+}
+
+.pop-up-box2{
+  width: 248px;
+    height: 50px;
+    background-color: #e7f82b;
+    color: rgb(64, 10, 91);
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 28px;
+    border: 2px solid white;
+    margin-top: 101PX;
+    margin-left: 31px;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.pop-up-box2:hover {
+  background-color: #afa7a5; 
+  cursor: pointer; 
+  transform: scale(1.1); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
+
+}
+/* ///////////////// */
+ .box3-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150PX;
+    margin: left -2px;11px;
+}
+
+.box3 {
+  position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-left: 500px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-top: -405px;
+}
+
+.box3:hover {
+  transform: scale(1.05);
+}
+
+.box3 img {
+  width: 281px;
+    height: 174px;
+    object-fit: cover;
+    border-bottom: 2px solid #ccc;
+}
+.box3 h1 {
+  margin: 10px 0;
+  font-size: 20px;
+  color:navy;
+  font-weight: bold;
+}
+
+.box3 h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color:navy;
+
+  color: #333;
+}
+
+
+
+.box3:hover .popup {
+  opacity: 1;
+  visibility: visible;
+} 
+
+.pop-up-box3{
+  width: 243px;
+    height: 50px;
+    background-color: #e7f82b;
+    color: rgb(64, 10, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 28px;
+    border: 2px solid white;
+    margin-top: 50PX;
+    margin-left: 31px;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.pop-up-box3:hover {
+  background-color: #afa7a5; 
+  cursor: pointer; 
+  transform: scale(1.1); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
+
+}
+
+
+/* ////// */
+
+
+.box4-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150PX;
+    margin-left:-600px;
+}
+
+.box4 {
+  position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-left: 900px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-top: -405px;
+}
+
+.box4:hover {
+  transform: scale(1.05);
+}
+
+.box4 img {
+  width: 299px;
+    height: 218px;
+    object-fit: cover;
+    border-bottom: 2px solid #ccc;
+}
+.box4 h1 {
+  margin: 10px 0;
+  font-size: 20px;
+  color:navy;
+  font-weight: bold;
+}
+
+.box4 h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color:navy;
+
+  color: #333;
+}
+
+
+
+.box4:hover .popup {
+  opacity: 1;
+  visibility: visible;
+} 
+
+.pop-up-box4{
+  width: 243px;
+    height: 50px;
+    background-color: #e7f82b;
+    color: rgb(64, 10, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 28px;
+    border: 2px solid white;
+    margin-top: 10PX;
+    margin-left: 31px;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.pop-up-box4:hover {
+  background-color: #afa7a5; 
+  cursor: pointer; 
+  transform: scale(1.1); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
+
+}
+  </style>
+
+    
+
+
+</head>
+<body>
+    <div class="title">
+        <div><img  class="h1"   src="olg.png" alt=""> </div>
+        <div class="h2"><P class="align">
+       <P class="A1"> LOTTERY  </P>    
+       <P class="A2"> INSTANT</P>
+         <P class="A3"> CASINO</P>
+         <P class="A4"> SPORTS</P>
+         <P class="A5"> WINNERS</P>
+         <P class="A6"> LEARN</P>
+        </P>
+        </div>
+
+      
+        <div class="blinking-image">
+          <img src="lottomax-w.png" alt="Blinking Image">
+        </div>
+        <div class="blinking-text"> $80 MILLION JACKPOT </div>
+        <div class="color-box">LOGIN</div>
+        <div class="pop-up-box">SIGN UP</div>
+        <div><p class="en">EN</p><p class="fr">FR</p></div>
+
+    </div>
+    <div>
+    <div ><img class="a7" src="lottomax-w.png" alt=""></div>
+    <div><p class="a8"> NEXT JACKPOT: WEDNESDAY,DECEMBER 4</p></div>
+    <div><p class="a9"> $80 MILLION est. </p></div>
+    <div class="a10"><p>PLUS 29 MAXMILLIONS EST.</p>
+      <P>GET A $5 LOTTERY BONUS WHEN YOU SIGN UP</P>
+    <P >AND BUY A LOTTERY TICKET!</P>
+    </div>
+<div><img  class="a11" src="dal-42220-get5-lottery-offer-banner-img-e.png" alt=""></div>
+<div class="pop-up-box1">CLAIM OFFER</div>
+<div><p class="a12">*Terms and conditions apply.</p><p class="a13"> Must be 18+ and a resident of Ontario located in the province at the time of opt-in.</p></div>
+</div>
+
+  <div class="box-container">
+    <div class="box">
+      <img src="dal-42220-get5-lottery-offer-banner-img-e.png" alt="Placeholder Image">
+      <h1>LOTTERY</h1>
+      <h3>Buy a ticket,Get $5</h3>
+      <div class="pop-up-box2">CLAIM OFFER</div>
+
+    </div>
+  </div>
+
+  <div class="box-container3">
+    <div class="box3">
+      <img  src="Screenshot 2024-12-02 183737.png" alt="Placeholder Image">
+      <h1>CASINO</h1>
+      <h3>BET $20 on any casino game,get a $200 Casino Bonus</h3>
+      <div class="pop-up-box3">CLAIM OFFER</div>
+
+    </div>
+  </div>
+   <div class="box-container4">
+    <div class="box4">
+      <img  src="Screenshot 2024-12-02 191701.png" alt="Placeholder Image">
+      <h1>SPORTS</h1>
+      <h3>BET $25 ,get a $50 </h3>
+      <div class="pop-up-box4">CLAIM OFFER</div>
+</body>
+</html>
